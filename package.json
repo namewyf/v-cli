@@ -3,13 +3,15 @@
   "version": "1.0.0",
   "description": "one cli for create project",
   "main": "index.js",
+  "bin": {
+    "v": "./bin/demo-commander.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "namewyf",
   "license": "ISC",
   "dependencies": {
-    "commander": "^12.1.0",
-    "figlet": "^1.8.0"
+    "commander": "^12.1.0"
   }
 }
