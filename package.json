@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "one cli for create project",
   "main": "index.js",
+  "type": "module",
   "bin": {
     "v": "./bin/demo-commander.js"
   },
@@ -12,6 +13,8 @@
   "author": "namewyf",
   "license": "ISC",
   "dependencies": {
-    "commander": "^12.1.0"
+    "commander": "^12.1.0",
+    "download-git-repo": "^3.0.2",
+    "ora": "^8.1.1"
   }
 }
