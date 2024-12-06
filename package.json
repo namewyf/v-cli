@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "one cli for create project",
   "main": "index.js",
-  "type": "module",
   "bin": {
     "v": "./bin/demo-commander.js"
   },
