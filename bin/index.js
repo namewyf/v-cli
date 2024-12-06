@@ -5,6 +5,8 @@ import { promisify } from "util"
 import figlet from "figlet"
 import chalk from "chalk"
 import inquirer from "inquirer"
+//记得这里要加.js
+import init from "./init.js"
 let asyncfiglet = promisify(figlet)
 // 日志打印函数
 const log = (content) => {
@@ -35,7 +37,8 @@ program.command("create <app-name>")
         ])
         if (answer.language === "JavaScript") {
             // 下载框架
-            log("JavaScript")
+            log("您选择了JavaScript版本，即将进入下载模式")
+            init(name)
         } else {
             log("TypeScript")
         }
